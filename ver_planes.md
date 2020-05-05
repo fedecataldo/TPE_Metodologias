@@ -1,4 +1,4 @@
-# User Story Specification: Ver viajes futuros
+# User Story Specification: Ver planes
 
 ## 1.	Description
 
