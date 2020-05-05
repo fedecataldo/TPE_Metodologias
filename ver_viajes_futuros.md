@@ -1,10 +1,10 @@
-#User Story Specification: <Ver viajes futuros>
+# User Story Specification: <Ver viajes futuros>
 
-##1.	Description
+## 1.	Description
 
 * Como usuario quiero ver viajes futuros para mantenerme organizado
 
-##2.	Acceptance Criteria
+## 2.	Acceptance Criteria
 
 * el nombre de viaje es un nombre válido
 * la ciudad de destino se corresponde con el destino deseado
