@@ -6,7 +6,7 @@ Se considera que un producto es potencialmente usable y entregable cuando se cum
 * El trabajo de todos los miembros del equipo de desarrollo tiene que estar totalmente integrado en cada iteración (sin presentar errores).
 * El trabajo de cada miembro del equipo ha sido revisado por al menos otro miembro del equipo.
 * Todo el equipo considera que para cada objetivo/requisito se cumplen sus criterios de aceptación.
-* El Product Owner ha validado y aceptado el objetivo/requisito.
+* El Product Owner ha validado y aceptado el objetivo/requisito. (quitar)
 
 
 
