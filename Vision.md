@@ -3,12 +3,8 @@
   El propósito de crear este producto, es conceder una herramienta al grupo inversor para facilitarle a los usuarios la planificación de los viajes que quieran realizar y el acceso a su información previa y futura. Es un servicio que ayudará al armado y organización de los viajes ya que permite adquirir diferentes planes que incluyen reservas de hoteles, viajes de colectivos, excursiones, entre otras, que facilitaran al viajante una estadía más agradable, sin preocupaciones.**
 
 ## 2. Target Group
->[Describes the market or market segment you want to address. You should state who the product is likely to benefit, who its users and its customers are. Choose a homogenous, clear-cut target group. 
-Which market or market segment does the product address? Who are the target customers and users?]
-
->[Example: 
-Users: Product managers and product owners. Customers: mid-size to large enterprises]
-
+>Usuarios: dueños de empresas de viajes que quieran mejorar sus sistemas de gestión para optimizar su servicio de atención. Logrando con esto una mayor rapidez, comodidad y accesibilidad del lado de sus empleados y clientes al momento de utilizar los servicios de la empresa. 
+Consumidores: empresas pequeñas y grandes de transporte ya sean nacionales o internacionales.
 
 ## 3. Needs
   Las empresas de vuelos y agencias de viajes por lo general dan toda la información a un usuario en una reunión donde hay folletos, papeles, planes, muchas cosas que una persona no puede retener en su cabeza, ordenar estas cosas no es sencillo dado que la variedad de referencias es amplia, un empresario o alguien que está acostumbrado a viajar entiende cómo se manejan los vuelos y las aerolíneas, pero para el hombre común o el turista entusiasta no es así. Nuestra aplicación garantiza una experiencia para estos casos de incertidumbre. 
