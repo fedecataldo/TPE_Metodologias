@@ -19,12 +19,7 @@ Los usuarios podrán hacer una reserva de viaje, informarse del mismo en caso de
 
 ## 5. Business Goals
 
->[Explains why it’s worthwhile for your company to invest in the product. It states the desired business benefits, for instance, increase revenue, enter a new market, reduce cost, develop the brand, or acquire valuable knowledge. 
-How is the product going to benefit the company? What are the business goals?]
-
->[Example: 
->
->>-Open up a new revenue stream
->
->>-Develop our main brand]
->
+Para usted como nuestro cliente le ofrecemos:
+-	Mayor facilidad de acceso a sus datos tanto para usted como para su personal.
+-	Lograr una administración de su empresa y recursos de la mejor manera posible.
+-	Y permitir brindarle a sus clientes experiencias mucho más satisfactorias y placenteras dignas de volver a repetir.
