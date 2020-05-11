@@ -20,7 +20,7 @@ Se considera que un producto es potencialmente usable y entregable cuando se cum
 * Resultado Obtenido
 * Observaciones (algún indicio de por que hay diferencias entre los resultados esperados y obtenidos)
 ```
-
+* Se deberan documentar y subir las minutas asociadas a cada reunion realizada por los miembros del equipo
 
 
 
