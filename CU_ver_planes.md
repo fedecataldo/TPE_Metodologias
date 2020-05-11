@@ -1,41 +1,25 @@
-# Use-Case Specification: Alta de viaje
+# Use-Case Specification: Ver Planes
 
 ## 1. Brief Description
-El caso de uso permite a los usuarios darse de alta en un viaje
+Este caso de uso permite a los usuarios ver planes disponibles
 ## 2.Actor primario
 Usuario
 ## 3. Trigger
-El caso de uso comienza cuando el usuario quiere darse de alta en un viaje
+El caso de uso comienza cuando el usuario quiere ver planes disponibles
 ## 3. Basic Flow of Events
-   * 1) El caso de uso comienza cuando el usuario quiere darse de alta en un viaje
-   * 2) El sistema presenta dos opciones, mediante formulario en la app o reenviando un mail de confirmacion a la empresa
-   * 3) El usuario elige darse de alta por formulario
-   * 4) El sistema muestra una pantalla solicitando completar datos personales(forma de pago,email,numero de telefono, fecha de ida, fecha de vuelta, lugar de destino, horario)
-   * 5) El usuario ingresa los datos solicitados
-   * 6) El sistema verifica los datos 
-   * 7) El sistema solicita al usuario una confirmacion de alta
-   * 8) El usuario confirma el alta
-   * 9) El sistema registra la informacion
-   * 10) El caso de uso finaliza
+   * 1)	El caso de uso comienza cuando el usuario quiere ver planes disponibles
+   * 2)	El sistema pide al usuario que elija los filtros de búsqueda
+   * 3)	El usuario elije los filtros que desea aplicar
+   * 4)	El sistema aplica los filtros a la búsqueda y devuelve los resultados
+   * 5)	El usuario elige el plan que más  le interese
 
-##4. Alternative Flows
+
+## 4. Alternative Flows
 
 #### 4.1 <Area of Functionality\>
- 
-4.1.1. < A1 First Alternative Flow >
-	* 3) 1_ El usuario elige darse de alta por reenvio de emai
-            2_El sistema envia un email al usuario solicitando informacion necesaria para darse de alta (forma de 	pago,email,numero de telefono, fecha de ida, fecha de vuelta, lugar de destino, horario)
-            3_El usuario completa la informacion y reenvia el email con los datos solicitados
-            4_ El sistema verifica la informacion
-            5_se vuelve a 9)
-
-4.1.2. < A2 Second Alternative Flow >
-	* 6) 1_ el sistema detecta que se cargo mal un dato
-	     2_el sistema notifica el campo que debera corregirse
-	     3_se vuelve a 5)
 
 ## 5. Key Scenarios
-El usuario quiere darse de alta en un viaje, El sistema presenta dos alternativas para darse de alta, mediante formulario en la app o reenviando un mail. El usuario elige darse de alta por formulario, el sistema presenta el formulario, el usuario completa los campos, el sistema procesa y guarda la información.  
+El usuario quiere ver los planes de un viaje, El sistema presenta la pantalla de opciones para filtrar la búsqueda. El usuario elige los filtros que desea aplicar, el sistema presenta los planes y el usuario elige el plan que más le atraiga.  
 
 ## 6. Preconditions
 
@@ -45,7 +29,7 @@ El usuario quiere darse de alta en un viaje, El sistema presenta dos alternativa
 ## 7. Postconditions
 
 #### 7.1 <Postcondition One\>
- * EL usuario registro su alta de viaje en su historial
+ * El usuario eligió un plan de viaje
 
 ## 8. Extension Points
 
