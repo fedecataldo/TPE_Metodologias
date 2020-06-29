@@ -20,7 +20,7 @@ public class usuario {
 
     }
 
-    public reservarHotelManualmente(viaje v){
+    public void reservarHotelManualmente(viaje v){
         System.out.println("Ingresar nombre del hotel : ");
         System.out.println("Ingresar cantidad de personas: ");
         System.out.println("Ingresar cantidad de habitaciones: ");
