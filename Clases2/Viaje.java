@@ -2,9 +2,9 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class viaje {
+public class Viaje {
 
-    private ArrayList<plan> planes;
+    private ArrayList<Plan> planes;
     private int ID;
 
 
@@ -15,7 +15,7 @@ public class viaje {
         this.ID=ID;
     }
 
-    public void addPlanHotel(plan p){
+    public void addPlanHotel(Plan p){
         if(p.getInformacion("hotel").verificarDisponibilidad(p) && verificarFechaReserva(p)) {
             planes.add(p); // si no esta ocupado el hotel y no tengo otra reserva en la misma fecha agrego el plan
         }
@@ -24,17 +24,17 @@ public class viaje {
 
     public void abrirGmail(){
 
-        plan p = generarPlanConDatosGmail(); 
+        Plan p = generarPlanConDatosGmail(); 
         addPlanHotel(p);  //pregunta si esta ocupado o no con el addplanhotel
     }
 
 
-    public boolean verificarDisponibilidad(plan p){
+    public boolean verificarDisponibilidad(Plan p){
 
         return confirmacionHotel(); //se encarga el hotel que es otro sistema
     }
 
-    public boolean verificarFechaReserva(plan p){
+    public boolean verificarFechaReserva(Plan p){
 
         boolean validar=true;
 
