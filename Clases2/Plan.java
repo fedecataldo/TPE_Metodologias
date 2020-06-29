@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.HashMap;
 
-public class plan {
+public class Plan {
 
     HashMap<String,Object> informacion;   // como los planes pueden tener diferente info utilizamos una hash
 
