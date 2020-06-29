@@ -5,16 +5,16 @@ import java.util.HashMap;
 
 public class Usuario {
 
-    private ArrayList<viaje> viajes;
+    private ArrayList<Viaje> viajes;
 
     public usuario(){
 
-        viajes =  new ArrayList<viaje>();
+        viajes =  new ArrayList<Viaje>();
 
     }
 
 
-    public void reservarHotelMail(viaje v){
+    public void reservarHotelMail(Viaje v){
 
         v.abrirGmail();
 
@@ -42,7 +42,7 @@ public class Usuario {
         informacion.put("telefonoUsuario","telefono");
         informacion.put("formaPago","pago");
 
-        plan p = new plan(informacion);  //primero genero el plan con los datos y despues intento agregar
+        Plan p = new plan(informacion);  //primero genero el plan con los datos y despues intento agregar
         v.addPlanHotel(p);
 
 
